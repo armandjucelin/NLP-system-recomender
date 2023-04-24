@@ -1,0 +1,25 @@
+We are building a sentiment analysis machine learning recommender system model using the amazon reviews dataset.
+We already have the model built using VADER and we need to resume using the machine learning approach.
+Some of the key points:
+1. Modeling (Sentiment Analysis) Machine Learning approach:
+a. Split the data into 70% for training and 30% for testing,—Use stratified splitting
+based on the rating value field.
+
+b. Build two sentiment analysis models using 70% of the data. Choose two of the
+following Machine Learning algorithms to build your models:
+i. Logistic Regression
+ii. SVM
+iii. Naïve Bayes
+iv. Gradient Boosting
+2. Note the results of the training process.
+3. Testing: Test out the two models using the 30% test data note the accuracy, precision,
+recall and F1 score.
+4. Compare the test results of the Lexicon model versus the two machine learning models.
+5. Review the attached paper “Recommender systems based on user reviews: the state of
+the art”, which can also be accessed at the centennial library. Examining the options presented
+in the paper carryout the following:
+a. Explain how you can enhance the rating values of your data using the review
+data.
+b. Choose one of the suggested options, and provide diagrams and pseudo-code.
+c. Implement the suggestion on your dataset. (Code needs to be provided)
+ 
